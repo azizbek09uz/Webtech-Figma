@@ -297,7 +297,7 @@ section .service .h3{
 section .imges{
     display: flex;
 }
-section .imges .box, img{
+section .imges .box, section .imges img{
     width: 100%;
     height: 100%;
 }
