@@ -497,3 +497,54 @@ section .security-text p:last-child{
   display: flex;
   gap: 40px;
 }
+
+
+/* FOOTER */
+
+
+footer .top{
+  display: flex;
+  gap: 50px;
+  padding: 100px 200px;
+  color: white;
+  background-color: var(--qora-);
+}
+footer .top p{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+footer .options:last-child p i{
+  margin-bottom: 33px;
+  margin-right: 10px;
+}
+footer .options:not(:last-child, :first-child) p{
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(192, 174, 174, 0.311);
+}
+footer .options:not(:last-child, :first-child) p i{
+  margin-top: 5px;
+}
+footer .options:not(:last-child, :first-child) p:last-child{
+  border: none;
+}
+footer h3{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--mont-);
+  letter-spacing: 4.8px;
+  color: var(--kuk-);
+  margin-bottom: 50px;
+}
+footer .icons{
+  display: flex;
+  font-size: 18px;
+  gap: 30px;
+}
