@@ -378,7 +378,7 @@ section .new-era {
   align-items: center;
   font-family: var(--mont-);
   background: url(../img/Rectangle\\(15\).svg) no-repeat left bottom;
-  padding: 150px 200px;
+  padding: 150px 200;
 }
 section .new-era_item h2 span {
   font-size: 55px;
